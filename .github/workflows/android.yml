@@ -31,7 +31,7 @@ jobs:
         with:
           java-version: 1.8
       - name: Clean Build
-          run: bash ./gradlew clean
+        run: bash ./gradlew clean
       - name: Lint Error
         run : bash ./gradlew lintStageDebug
       - name: Build debug APK
