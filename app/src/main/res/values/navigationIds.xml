@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- dashboard_navigation-->
+    <item name="dashboardNavigation" type="id"/>
+    <item name="navDashboard" type="id"/>
+</resources>

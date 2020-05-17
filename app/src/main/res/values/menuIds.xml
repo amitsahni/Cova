@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- menu_drawer_dashboard-->
+    <item name="drawerWorldWide" type="id"/>
+    <item name="drawerZones" type="id"/>
+    <item name="drawerState" type="id"/>
+    <item name="drawerWhatToDo" type="id"/>
+
+</resources>

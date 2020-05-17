@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item
+        android:id="@id/drawerWorldWide"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="WorldWide" />
+
+    <item
+        android:menuCategory="secondary"
+        android:title="India">
+
+        <menu>
+            <item
+                android:id="@id/drawerZones"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Zones" />
+            <item
+                android:id="@id/drawerState"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="States" />
+
+            <item
+                android:id="@id/drawerWhatToDo"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Do's and Don't" />
+
+        </menu>
+
+    </item>
+
+
+</menu>

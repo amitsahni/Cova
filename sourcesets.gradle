@@ -1,0 +1,30 @@
+android {
+    sourceSets {
+        main {
+            java.srcDirs += 'src/main/kotlin'
+            res.srcDirs += 'src/main/res'
+            res.srcDirs += 'src/main/drawable'
+
+            /*** Layout folder ***/
+            file('src/main/res/layouts')
+                    .listFiles()
+                    .each { res.srcDirs += it.path }
+
+
+            /*** Drawable folder ***/
+            file('src/main/res/drawables')
+                    .listFiles()
+                    .each { res.srcDirs += it.path }
+
+            /*** Menu folder ***/
+            file('src/main/res/menus')
+                    .listFiles()
+                    .each { res.srcDirs += it.path }
+
+            /*** Navigation folder ***/
+            file('src/main/res/navigations')
+                    .listFiles()
+                    .each { res.srcDirs += it.path }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common -->
+    <item name="drawerLayout" type="id"/>
+    <item name="replaceContainer" type="id"/>
+    <item name="navigationController" type="id"/>
+    <item name="navView" type="id"/>
+    <item name="toolbar" type="id"/>
+    <item name="imageView" type="id"/>
+    <item name="containerView" type="id"/>
+    <item name="animationView" type="id"/>
+
+    <!---->
+
+
+
+</resources>
