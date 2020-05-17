@@ -15,8 +15,8 @@ bin/
 gen/
 out/
 gradle.properties
-gradlew
-gradlew.bat
+#gradlew
+#gradlew.bat
 
 # Gradle files
 .gradle/
