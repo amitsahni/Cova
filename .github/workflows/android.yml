@@ -14,7 +14,8 @@ jobs:
     steps:
     - name: "Add gradlew"
       uses: vgaidarji/android-github-actions-build@v1.0.1
-      args: "chmod +x ./gradlew"
+      with:
+        args: "chmod +x ./gradlew"
 
     - name: "Build"
       uses: vgaidarji/android-github-actions-build@v1.0.1
